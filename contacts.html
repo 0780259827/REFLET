@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reflet – Contacts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="contact-page">
+<div class="brush-deco" aria-hidden="true"></div>
+
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="Reflet – accueil">
+    <svg viewBox="0 0 48 36" aria-hidden="true"><path d="M2 20 L22 4 L30 12 L10 28Z" fill="#a9cfc7"/><path d="M26 6 L44 2 L40 14 L30 14Z" fill="#b7a9cf"/><path d="M4 30 H40 V34 H4Z" fill="#c9b8a6"/></svg>
+    <span>REFLET</span>
+  </a>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <label for="nav-toggle" class="burger" aria-label="Menu">☰</label>
+  <nav class="nav" aria-label="Navigation principale">
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="apropos.html">A propos</a></li>
+      <li><a href="galerie.html">Galerie</a></li>
+      <li><a href="contacts.html" aria-current="page">Contacts</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="contact">
+  <section>
+    <h1>CONTACTS</h1>
+    <span class="form-title">FORMULAIRE</span>
+    <form action="#" method="post">
+      <input type="text" name="nom" placeholder="Votre nom" aria-label="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre Email" aria-label="Votre Email" required>
+      <input type="tel" name="tel" placeholder="Votre téléphone" aria-label="Votre téléphone">
+      <textarea name="message" placeholder="Votre message" aria-label="Votre message" required></textarea>
+      <button type="submit">Envoyer le Message</button>
+    </form>
+    <div class="socials">
+      <a href="#" aria-label="Facebook">f</a>
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="Twitter">𝕏</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>INFORMATIONS</h2>
+    <ul class="info">
+      <li><span class="ico">✉️</span>Email : reflet@gmail.com</li>
+      <li><span class="ico">📍</span>Adresse : Cours Saleya,<br>06300 Nice</li>
+      <li><span class="ico">📞</span>Tel : 01.63.45.85.56</li>
+      <li><span class="ico">📠</span>Fax : 01.63.45.78.52</li>
+    </ul>
+    <iframe class="map" title="Plan : Cours Saleya, Nice" loading="lazy"
+      src="https://www.openstreetmap.org/export/embed.html?bbox=7.262%2C43.688%2C7.288%2C43.702&layer=mapnik&marker=43.6952%2C7.2749"></iframe>
+  </section>
+</main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

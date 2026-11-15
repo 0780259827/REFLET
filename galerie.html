@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reflet – Galerie</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="Reflet – accueil">
+    <svg viewBox="0 0 48 36" aria-hidden="true"><path d="M2 20 L22 4 L30 12 L10 28Z" fill="#a9cfc7"/><path d="M26 6 L44 2 L40 14 L30 14Z" fill="#b7a9cf"/><path d="M4 30 H40 V34 H4Z" fill="#c9b8a6"/></svg>
+    <span>REFLET</span>
+  </a>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <label for="nav-toggle" class="burger" aria-label="Menu">☰</label>
+  <nav class="nav" aria-label="Navigation principale">
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="apropos.html">A propos</a></li>
+      <li><a href="galerie.html" aria-current="page">Galerie</a></li>
+      <li><a href="contacts.html">Contacts</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <div class="brush-title">
+    <h1>GALERIE</h1>
+    <p>Découvrir nos artistes...</p>
+  </div>
+
+  <div class="gallery-wrap">
+    <div class="gallery">
+      <figure class="card"><div class="pic" role="img" aria-label="Tableau de Berthe Morisot"></div><figcaption>Berthe Morisot</figcaption></figure>
+      <figure class="card"><div class="pic" role="img" aria-label="Tableau de Claude Monet"></div><figcaption>Claude Monet</figcaption></figure>
+      <figure class="card"><div class="pic" role="img" aria-label="Tableau de Frank Weston Benson"></div><figcaption>Frank Weston Benson</figcaption></figure>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
