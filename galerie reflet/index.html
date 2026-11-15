@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reflet – Accueil</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="Reflet – accueil">
+    <svg viewBox="0 0 48 36" aria-hidden="true"><path d="M2 20 L22 4 L30 12 L10 28Z" fill="#a9cfc7"/><path d="M26 6 L44 2 L40 14 L30 14Z" fill="#b7a9cf"/><path d="M4 30 H40 V34 H4Z" fill="#c9b8a6"/></svg>
+    <span>REFLET</span>
+  </a>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <label for="nav-toggle" class="burger" aria-label="Menu">☰</label>
+  <nav class="nav" aria-label="Navigation principale">
+    <ul>
+      <li><a href="index.html" aria-current="page">Accueil</a></li>
+      <li><a href="apropos.html">A propos</a></li>
+      <li><a href="galerie.html">Galerie</a></li>
+      <li><a href="contacts.html">Contacts</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="carousel" aria-label="Carrousel de tableaux">
+    <div class="slides">
+      <div class="slide" role="img" aria-label="Paysage impressionniste"></div>
+      <div class="slide" role="img" aria-label="Tableau 2"></div>
+      <div class="slide" role="img" aria-label="Tableau 3"></div>
+    </div>
+    <button class="arrow prev" aria-label="Précédent">‹</button>
+    <button class="arrow next" aria-label="Suivant">›</button>
+  </section>
+
+  <section class="hero-title">
+    <h1>REFLET</h1>
+    <p class="tagline">Entrez dans un monde où chaque instant devient une œuvre d’art.</p>
+  </section>
+
+  <div class="banner" role="img" aria-label="Paysage impressionniste"></div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
