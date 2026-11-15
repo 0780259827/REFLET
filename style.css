@@ -18,7 +18,7 @@ a{color:inherit}
 .site-header{display:flex;align-items:center;justify-content:space-between;
   padding:12px clamp(16px,4vw,48px);position:relative;z-index:5}
 .logo{display:flex;align-items:center;gap:12px;text-decoration:none}
-.logo svg{width:48px;height:36px}
+.logo-img{height:clamp(44px,6vw,64px);width:auto}
 .logo span{font-size:clamp(1.6rem,3vw,2.2rem);letter-spacing:.02em}
 .nav ul{list-style:none;display:flex;gap:clamp(20px,4vw,52px)}
 .nav a{font-size:.9rem;text-decoration:underline;text-underline-offset:3px}
