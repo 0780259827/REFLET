@@ -63,7 +63,6 @@ a{color:inherit}
 .card:nth-child(1) .pic{background-image:url(images/morisot.jpg),linear-gradient(#a9c68f,#6b9a6e)}
 .card:nth-child(2) .pic{background-image:url(images/monet.jpg),linear-gradient(#7fb0a4,#4f7f7a)}
 .card:nth-child(3) .pic{background-image:url(images/benson.jpg),linear-gradient(#cfd8e6,#7da0c8)}
-.card:nth-child(4) .pic{background-image:url(images/renoir.jpg),linear-gradient(#e7c4b0,#b27f6d)}
 .card figcaption{font-family:var(--hand);font-weight:700;font-size:1.15rem;margin-top:10px}
 
 /* ----- Contacts ----- */
