@@ -46,7 +46,7 @@ a{color:inherit}
 .about{max-width:1100px;margin:0 auto;padding:clamp(24px,5vw,60px) clamp(16px,4vw,32px)}
 .about-img{float:left;width:min(58%,560px);margin:0 28px 14px 0;aspect-ratio:4/3;object-fit:cover;
   background:linear-gradient(160deg,#e9b9a6,#7f9bb5)}
-.about h2{font-weight:400;font-size:clamp(1.4rem,3vw,1.9rem);text-align:center;margin:8px 0 18px;letter-spacing:.04em}
+.about h1{font-weight:400;font-size:clamp(1.4rem,3vw,1.9rem);text-align:center;margin:8px 0 18px;letter-spacing:.04em}
 .about p{text-align:justify;hyphens:auto;margin-bottom:12px;font-size:.95rem}
 .about .tagline{clear:both;text-align:center;padding-top:20px;font-size:1.3rem}
 
